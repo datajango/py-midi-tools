@@ -4,6 +4,20 @@
 
 This repo was created in order to implment a Midi Library written in Python 3 that follows a Test Driven Development approach.
 
+Goals of this Project:
+
+1. Create a realibe Midi Library
+    1. Support Python 3.x and above
+    1. Read any Midi 1.0, 1.1 file
+    1. API to create Midi files
+    1. Fully unit tested
+1. Create Tools
+    1. Validate a Midi File is correct
+    1. Repair damaged Midi files
+    1. Split a Midi that is one track with multiple channels into a multiple tracks per channel.
+    1. Split a track into multiple channels
+
+
 To run the read tester program:
 ```
 conda activate pyaudio
@@ -17,6 +31,8 @@ pytest
 coverage run -m pytest
 coverage html
 ```
+
+[View Coverage Report](./htmlcov/index.html)
 
 ## Conda
 
